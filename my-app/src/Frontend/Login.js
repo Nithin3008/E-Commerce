@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Login1()
 {
     return(<div>
@@ -16,7 +18,7 @@ export function Login1()
                 borderRadius:"3px",
                 marginTop: "10px",
               }}>Login with Test Cred</button>
-              <p>Didn't Have Account </p>
+              <p>Didn't Have Account <Link to="/Signup1">SignUp</Link></p>
                </div>
               
         </div>
