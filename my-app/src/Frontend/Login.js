@@ -3,7 +3,28 @@ import { Link } from "react-router-dom";
 export function Login1()
 {
     return(<div>
-       <div className="loginBox" style={{marginTop:"12%"}}>
+        <header style={{ display: "flex", justifyContent: "space-between" }}>
+        <div>
+          <p style={{ fontSize: "35px" }}>
+            Wheels of{" "}
+            <span style={{ color: "orangered", fontWeight: "700" }}>
+              Fortune
+            </span>
+          </p>
+        </div>
+        <nav>
+          <Link className="linksTag" to="/Login1">
+            Login
+          </Link>
+          <Link className="linksTag" to="/Login1">
+            Whislist
+          </Link>
+          <Link className="linksTag" to="/Login1">
+            Cart
+          </Link>
+        </nav>
+      </header>
+       <div className="loginBox" style={{marginTop:"8%"}}>
                <div>
                <p style={{textAlign:"center",fontSize:"35px",marginBottom:"35px"}}>Login</p>
                 
