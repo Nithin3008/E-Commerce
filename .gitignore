@@ -1,3 +1,6 @@
 
 *.json
 *.ico
+my-app/node_modules/.bin/acorn
+my-app/node_modules/.bin/ansi-html
+my-app/node_modules/.bin/acorn.cmd
